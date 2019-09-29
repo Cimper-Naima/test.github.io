@@ -1,0 +1,125 @@
+body{
+  color: black;
+  background-color: grey;
+}
+#titreprincipal{
+  text-align: center;
+  background-color:grey;
+  color:black;
+}
+#BienvenueId{
+  animation-duration: 5s;
+    animation-name: nanoush;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes nanoush {
+    from {
+      margin-left: 70%;
+      width: auto; 
+    }
+    to {
+      margin-left: -70%;
+      width:auto;
+    }
+  }
+  #navigation li {
+    display: inline;
+  }
+  #navigation {
+    margin: 0 ;
+    padding: 0 ;
+    list-style: none ;
+    text-align: right ;
+  }
+  #navigation li {
+    display: inline ;
+    margin-right: 3px ;
+    color:black;
+    background:gray;
+  }
+  #navigation li a {
+    padding: 4px 20px ;
+    background:gray ;
+    color:black ;
+    border: 2px solid black ;
+    font: 1em "Trebuchet MS",Arial,sans-serif ;
+    line-height: 1em ;
+    text-align: center ;
+    text-decoration: none ;
+  }
+  #navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+    background-color:gray ;
+    text-decoration: underline ;
+  }
+  .blocdroit1{
+    block-size: 50px;
+writing-mode: horizontal-tb;
+  }
+  #Global #gauche {
+    float:left;
+    width:100%;
+    text-align: center;
+    border:1px solid black;
+    background-color: gray;
+}
+.flotte {
+  float:left;
+  }
+  .warning {
+    background-color:grey;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.warning img {
+    width: 50%;
+}
+
+.warning p {
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: center;
+}
+#Global #gauche1 {
+  float:left;
+  width:40%;
+  border: 1px solid black;
+  text-align: center;
+}
+.flotte1 {
+  float:left;
+  }
+  .warning1 {
+    background-color:grey;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+.warning1 p {
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: center;
+}
+#gauche1{
+  border: 1px solid black;
+}
+#Global #droite1 {
+  margin-left:40% ;
+  border: 1px solid black; 
+}
+.flotte2 {
+  float:left;
+  }
+  .warning2 {
+    background-color:grey;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+.warning p {
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: center;
+}
+#droit1{
+  border: 1px solid black;
+}
